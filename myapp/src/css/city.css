@@ -1,0 +1,81 @@
+#city{
+	background:#ebebeb;
+}
+#city>p:nth-child(1){
+	line-height: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-size: 14px;
+}
+#city .city-index-title{
+	line-height: 50px;
+	background: #fff;
+	box-sizing: border-box;
+	padding-left:20px;
+	color: #e2941a;
+	font-size: 16px;
+}
+#city>p:nth-of-type(3){
+	line-height: 30px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 10px;
+	font-size: 14px;
+}
+#city .hotcity{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	background: #fff;;
+}
+#city .hotcity li{
+	width: 25%;
+	height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: #ebebeb 1px solid;
+}
+#city>p:nth-of-type(4){
+	padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+}
+#city .alphabetclass{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	background: #fff;;
+}
+#city .alphabetclass li{
+	width: 25%;
+	height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: #ebebeb 1px solid;
+}
+#city .index-city-list{
+	overflow: hidden;
+	background: #fff;
+}
+#city .index-city-list dl dt{
+	padding-left: 15px;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #ebebeb;
+    margin-top: -1px;
+    background:#ebebeb;
+}
+#city .index-city-list dl dd{
+	float: left;
+	width: 25%;
+	height: 46px;
+    line-height: 46px;
+    font-size: 14px;
+    text-align: center;
+    border-bottom: #ebebeb 1px solid;
+}

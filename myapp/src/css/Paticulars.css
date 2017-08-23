@@ -1,0 +1,44 @@
+#Paticulars{
+     color: #333;
+}
+#Paticulars img{
+	width: 100%;
+	height: 180px;
+	margin-bottom: 10px;
+}
+#Paticulars h3{
+	margin: 16px auto;
+    border-left: 16px solid RGB(228, 200, 156);
+    font-size: 16px;
+    padding-left: 4px;
+}
+#Paticulars .main{
+	width: 100%;
+	padding-left: 13px;
+	box-sizing: border-box;
+}
+#Paticulars .main p{
+	line-height: 30px;
+}
+
+#Paticulars>p{
+	line-height: 16px;
+    width: 90%;
+    margin: 0 auto;
+    text-indent: 2em;
+}
+#Paticulars>button{
+	font-size: 14px;
+    min-width: 156px;
+    height: 36px;
+    line-height: 36px;
+    border: none;
+    background-color: #fe8233;
+    padding: 0;
+    margin: 0;
+    border-radius: 18px;
+    color: #fff;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+}

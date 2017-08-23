@@ -1,0 +1,11 @@
+.page{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+    background-color: #ebebeb;
+}
+body{
+	background-color: #ebebeb;
+}

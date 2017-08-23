@@ -1,0 +1,72 @@
+ 
+ #Cinema .partition>li h5{
+ 	height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    padding-left: 16px;
+    background: #e1e1e1;
+    margin-bottom: 1px;
+    color: #636363;
+    cursor: pointer; 
+ }  
+ #Cinema .partition>li ol{
+ 	width: 100%;
+ 	background: #fff;
+ }
+  #Cinema .partition>li ol li{
+  		width:100%;
+  		padding: 10px 0 12px 16px;
+  		box-sizing: border-box;
+  		border-bottom: 1px solid #e1e1e1;
+  }
+   #Cinema .partition>li ol li p{
+   line-height: 20px;
+   }
+  #Cinema .partition>li ol li .title{
+ 	margin-bottom: 10px;
+ }
+  #Cinema .partition>li ol li .title span:nth-child(1){
+  	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: text-top;
+    max-width: 56%;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #Cinema .partition>li ol li .title span:nth-child(2){
+  	 background:#fc8558;
+  	 	margin-left: 2px;
+  } 
+  #Cinema .partition>li ol li .title span:nth-child(3){
+  	background:#88aec8;
+  	margin-left: 2px;
+  }
+    #Cinema .partition>li ol li .privilege{
+    line-height: 20px;
+  }
+  #Cinema .partition>li ol li .privilege span{
+  	display: inline-block;
+    border-radius: 3px;
+    padding: 0 5px;
+    margin: 0 5px;
+    font-style: normal;
+    color: #fff;
+    height: 15px;
+    line-height: 15px;
+ }
+   #Cinema .partition>li ol li .privilege  span:nth-child(1){
+   	    background-color: #51add0;
+   }
+ #Cinema .partition>li ol li .privilege  span:nth-child(2){
+  	background-color: #ff9658;
+  }
+  #Cinema .partition>li ol li .address{
+    display: inline-block;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 75%;
+    color: #ccc;}

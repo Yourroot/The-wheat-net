@@ -1,0 +1,72 @@
+#movie .movie-toggle{
+	width: 90%;
+	display: flex;
+	line-height:50px;
+	margin: 0 auto;
+	border-bottom: solid #fe6e00 1px;
+}
+#movie .movie-toggle li{
+	text-align: center;
+	flex: 1;
+	font-size: 18px;	
+}
+#movie .movie-toggle .active{
+	color: #fe6e00; 
+	border-bottom: 3px solid;
+}
+/*公共样式*/
+#Movielist{
+	width: 100%;
+}
+#Movielist ol{
+	width: 90%;
+	margin: 0 auto;
+}
+#Movielist ol li{
+	width: 100%;
+	overflow: hidden;
+	padding: 14px 0;
+	display: flex;
+	border-bottom: dashed 1px #c9c9c9;
+}
+#Movielist ol li img{
+	width: 66px;
+	height: 92px;
+}
+#Movielist ol li .Movielistright{
+	flex: 1;
+	margin-left: 10px;
+}
+#Movielist ol li .Movielistright h5{
+	display: flex;
+	justify-content: space-between;
+	line-height: 32px;
+}
+#Movielist ol li .Movielistright h5 span:nth-child(1){
+	max-width: 90px;
+	font-size: 16px;
+    color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;	
+}
+#Movielist ol li .Movielistright h5 span:nth-child(2){
+	  color: #fc7103;
+}
+#Movielist ol li .Movielistright h5 span:nth-child(2) i{
+     color: #c6c6c6;
+ } 
+ #Movielist ol li .Movielistright p{
+ 	height: 29px;
+    line-height: 24px;
+    color: #8e8e8e;
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+    display: inline-block;
+ }
+#Movielist ol li .Movielistright p:nth-of-type(2) span:nth-child(1){
+	margin-right: 15px;
+}
